@@ -1,0 +1,32 @@
+
+.input-title{
+  margin: 5px 0;
+  text-align-last: left;
+}
+.transaction-block{
+  margin: 10px 0;
+}
+.transaction-input{
+  width: 100%;
+  padding: 8px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid rgb(199, 199, 199);
+  margin: 5px 0 10px;
+}
+#transaction-btn{
+  width: 100%;
+  text-align: center;
+  padding:  10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  transition: .3s ease;
+  background-color: rgb(73, 221, 73);
+}
+#transaction-btn:hover{
+  background-color: rgb(52, 165, 52);
+}

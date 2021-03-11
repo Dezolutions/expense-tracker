@@ -1,0 +1,49 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  margin: 10px 0;
+}
+.balance-text{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.balance-sum{
+  font-size: 30px;
+  
+}
+.border{
+  display: block;
+  width: 1px;
+  height: 40px;
+  background-color: rgb(221, 221, 221);
+}
+.income-expense {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 15px 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  box-shadow: 0px 3px 8px 0px rgb(194, 194, 194);
+}
+.income-text,
+.expense-text{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.income-sum{
+  color: rgb(73, 221, 73) ;
+  font-weight: 600;
+  font-size: 26px;
+}
+.expense-sum{
+  color: rgb(221, 67, 67) ;
+  font-weight: 600;
+  font-size: 26px;
+
+}
